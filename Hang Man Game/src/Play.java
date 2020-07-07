@@ -1,7 +1,7 @@
 /*
     Play class for Hangman.java
-    Created by Jalen Garnett
-    February 5th, 2010
+    Created by Hoang Do
+    Dec 20 2019
 */
 import java.util.Random;
 import java.util.Scanner;
