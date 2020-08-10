@@ -1,0 +1,14 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hoang do",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
