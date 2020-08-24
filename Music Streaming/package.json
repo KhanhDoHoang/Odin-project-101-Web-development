@@ -1,8 +1,8 @@
 {
   "name": "music-streaming",
   "version": "1.0.0",
-  "main": "APlayer.min.js",
-  "homepage": "https://KhanhDoHoang.github.io/music_streaming",
+  "main": "index.js",
+  "homepage": "https://KhanhDoHoang.github.io/music_app",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
