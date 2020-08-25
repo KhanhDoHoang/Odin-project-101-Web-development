@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Odin porject 101 Web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhanhDoHoang/Odin-porject-101-Web-development.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhanhDoHoang/Odin-porject-101-Web-development/issues"
+  },
+  "homepage": "https://github.com/KhanhDoHoang/Odin-porject-101-Web-development#readme",
+  "dependencies": {
+    "aplayer": "^1.10.1",
+    "gh-pages": "^3.1.0",
+    "three": "^0.119.1",
+    "threex-domevents": "^1.0.0"
+  }
+}
