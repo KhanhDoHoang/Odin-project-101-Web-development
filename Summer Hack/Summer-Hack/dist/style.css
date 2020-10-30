@@ -1,0 +1,921 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 150px;
+    height: 100px;
+}
+
+.top-nav {
+    width: 100%;
+    height: 150px;
+}
+
+.cool-cat {
+    margin-left: 87vh;
+    margin-top: 5vh;
+}
+
+.top-text {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    ;
+}
+
+div.group {
+    margin-top: 10vh;
+}
+
+.dev-text {
+    padding-top: 10vh;
+    font-size: 40px;
+    text-align: center;
+}
+
+.info {
+    padding-top: 10vh;
+    font-size: 15px;
+    text-align: center;
+}
+
+.githubLink-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.about {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    list-style-type: none;
+    font-size: 40px;
+}
+
+.return {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    list-style-type: none;
+    font-size: 40px;
+}
+
+body {
+
+
+    align-items: center;
+    justify-content: center;
+    background-color: #e09e48;
+    font-family: "Architects Daughter", sans-serif;
+    min-height: 100vh;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+form {
+    position: fixed;
+    margin-left: 14.25%;
+    margin-top: -2%;
+    width: 400px;
+    height: 500px;
+}
+
+/* body {
+    background-image: url(./media/1.svg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: "Architects Daughter", sans-serif;
+} */
+
+.card {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 325px 105px 40px;
+    grid-template-areas: "image""text""stats";
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    position: fixed;
+    border-radius: 18px;
+    background: white;
+    font-family: "Architect Daughter";
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: auto;
+    z-index: auto;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card-image {
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+
+
+/*card1*/
+.card.card1 {
+    visibility: hidden;
+}
+
+.card-image.card1 {
+    background: url("./media/biking.jpg");
+    background-size: cover;
+}
+
+.card-text.card1 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card2*/
+
+.card.card2 {
+    visibility: hidden;
+}
+
+.card-image.card2 {
+    background: url("./media/camping.jpg");
+    background-size: cover;
+}
+
+.card-text.card2 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card3*/
+
+.card.card3 {
+    visibility: hidden;
+}
+
+.card-image.card3 {
+    background: url("./media/learnANewLanguage.jpg");
+    background-size: cover;
+}
+
+.card-text.card3 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card4*/
+
+.card.card4 {
+    visibility: hidden;
+}
+
+.card-image.card4 {
+    background: url("./media/fishing.jpg");
+    background-size: cover;
+}
+
+.card-text.card4 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card5*/
+
+.card.card5 {
+    visibility: hidden;
+}
+
+.card-image.card5 {
+    background: url("./media/roadTrip.jpg");
+    background-size: cover;
+}
+
+.card-text.card5 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card6*/
+
+.card.card6 {
+    visibility: hidden;
+}
+
+.card-image.card6 {
+    background: url("./media/sunrise.jpg");
+    background-size: cover;
+}
+
+.card-text.card6 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card7*/
+
+.card.card7 {
+    visibility: hidden;
+}
+
+.card-image.card7 {
+    background: url("./media/veggieGarden.jpg");
+    background-size: cover;
+}
+
+.card-text.card7 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card8*/
+
+.card.card8 {
+    visibility: hidden;
+}
+
+.card-image.card8 {
+    background: url("./media/hiking.jpg");
+    background-size: cover;
+}
+
+.card-text.card8 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card9*/
+
+.card.card9 {
+    visibility: hidden;
+}
+
+.card-image.card9 {
+    background: url("./media/swimming2.png");
+    background-size: cover;
+
+}
+
+/*card10*/
+
+.card.card10 {
+    visibility: hidden;
+}
+
+.card-image.card10 {
+    background: url("./media/tour.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card10 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card11*/
+
+.card.card11 {
+    visibility: hidden;
+}
+
+.card-image.card11 {
+    background: url("./media/running.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card11 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card12*/
+
+.card.card12 {
+    visibility: hidden;
+}
+
+.card-image.card12 {
+    background: url("./media/paint.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card12 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card13*/
+
+.card.card13 {
+    visibility: hidden;
+}
+
+.card-image.card13 {
+    background: url("./media/rugby.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card13 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card14*/
+
+.card.card14 {
+    visibility: hidden;
+}
+
+.card-image.card14 {
+    background: url("./media/tennis.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card14 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card15*/
+
+.card.card15 {
+    visibility: hidden;
+}
+
+.card-image.card15 {
+    background: url("./media/basketball.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card15 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card16*/
+
+.card.card16 {
+    visibility: hidden;
+}
+
+.card-image.card16 {
+    background: url("./media/soccer.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card16 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card17*/
+
+.card.card17 {
+    visibility: hidden;
+}
+
+.card-image.card17 {
+    background: url("./media/surfing.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card17 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card18*/
+
+.card.card18 {
+    visibility: hidden;
+}
+
+.card-image.card18 {
+    background: url("./media/rockClimbing.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card18 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card19*/
+
+.card.card19 {
+    visibility: hidden;
+}
+
+.card-image.card19 {
+    background: url("./media/beachVolleyball.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card19 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card20*/
+
+.card.card20 {
+    visibility: hidden;
+}
+
+.card-image.card20 {
+    background: url("./media/archery.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card20 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card21*/
+
+.card.card21 {
+    visibility: hidden;
+}
+
+.card-image.card21 {
+    background: url("./media/golf.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card21 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card22*/
+
+.card.card22 {
+    visibility: hidden;
+}
+
+.card-image.card22 {
+    background: url("./media/campfire.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card22 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card23*/
+
+.card.card23 {
+    visibility: hidden;
+}
+
+.card-image.card23 {
+    background: url("./media/jumpRope.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card23 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card24*/
+
+.card.card24 {
+    visibility: hidden;
+}
+
+.card-image.card24 {
+    background: url("./media/canoeing.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card24 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card25*/
+
+.card.card25 {
+    visibility: hidden;
+}
+
+.card-image.card25 {
+    background: url("./media/frisbee.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card25 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card26*/
+
+.card.card26 {
+    visibility: hidden;
+}
+
+.card-image.card26 {
+    background: url("./media/beach.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card26 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card27*/
+
+.card.card27 {
+    visibility: hidden;
+}
+
+.card-image.card27 {
+    background: url("./media/barbacue.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card27 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card28*/
+
+.card.card28 {
+    visibility: hidden;
+}
+
+.card-image.card28 {
+    background: url("./media/flowers.png");
+    background-size: cover;
+
+}
+
+.card-text.card28 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card29*/
+
+.card.card29 {
+    visibility: hidden;
+}
+
+.card-image.card29 {
+    background: url("./media/book.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card29 {
+    grid-area: text;
+    margin: 25px;
+}
+
+/*card30*/
+
+.card.card30 {
+    visibility: hidden;
+}
+
+.card-image.card30 {
+    background: url("./media/berryPick.jpg");
+    background-size: cover;
+
+}
+
+.card-text.card30 {
+    grid-area: text;
+    margin: 25px;
+}
+
+
+.todo-previous {
+    display: block;
+    margin-top: 10vh;
+    justify-content: center;
+    text-align: left;
+    padding-left: 25px;
+    margin-left: -1rem;
+    background: rgb(241, 232, 149);
+    width: 23rem;
+    height: 70vh;
+    border-bottom-right-radius: 18%;
+    box-shadow: 15px 5px 15px rgba(50, 65, 18, 0.8);
+    z-index: -1;
+}
+
+.todo-favourite {
+    position: fixed;
+    margin-top: -23.5rem;
+    right: 0;
+    ;
+    padding-right: 12px;
+    justify-content: center;
+    text-align: right;
+    background: rgb(92, 125, 145);
+    color: white;
+    padding-top: 3rem;
+    font-size: 12px;
+    width: 12rem;
+    height: 50vh;
+    border-top-left-radius: 18%;
+    box-shadow: 25px 5px 15px rgba(15, 28, 82, 0.9);
+    z-index: auto;
+
+}
+
+.todo-previous:hover,
+.todo-favourite:hover {
+    transform: scale(0.98) translateY(5px);
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    display: flex;
+    margin-top: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 19rem;
+    background: white;
+    color: black;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.favourite-btn {
+    background: #ff6f47;
+    color: white;
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.starred-btn {
+    background: rgb(94, 201, 94);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    visibility: hidden;
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+.fa-star {
+    pointer-events: none;
+}
+
+.fall {
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+.box {
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 25%;
+    height: 80%;
+    width: 50%;
+    z-index: auto;
+}
+
+button {
+    align-items: center;
+    position: fixed;
+    cursor: pointer;
+    background: white;
+    height: 75px;
+    width: 300px;
+    margin-left: 17%;
+    margin-top: 22%;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 35px;
+    z-index: 1;
+}
+
+button:hover {
+    background: #e6dfdf;
+    border: 1px solid black;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.cardHolder .show {
+    visibility: visible;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .btn {
+        display: block;
+        /* width: 100%; */
+        margin-top: 60vh;
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 225px 155px 40px;
+        grid-template-areas: "image""text""stats";
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+        position: fixed;
+        border-radius: 18px;
+        background: white;
+        font-family: "Architect Daughter";
+        text-align: center;
+        transition: 0.5s ease;
+        cursor: pointer;
+        margin: auto;
+        z-index: auto;
+    }
+
+    .btn {
+        position: fixed;
+        margin-bottom: 100vh;
+        margin-left: 30rem;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .cardHolder {
+        display: block;
+        margin-left: -5rem;
+
+    }
+
+
+    .todo-previous {
+        display: block;
+        margin-top: 10vh;
+        justify-content: center;
+        text-align: left;
+        padding-left: 25px;
+        margin-left: -1rem;
+        background: rgb(241, 232, 149);
+        width: 16rem;
+        height: 70vh;
+        border-bottom-right-radius: 18%;
+        box-shadow: 15px 5px 15px rgba(50, 65, 18, 0.8);
+        z-index: -1;
+    }
+
+    .todo {
+        font-size: 11px;
+        font-weight: 500px;
+        display: flex;
+        margin-top: 10px;
+        margin: 10px;
+        padding: 10px;
+        height: 30px;
+        width: 12rem;
+        background: white;
+        color: black;
+        /* font-size: 1.3rem; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.5s ease;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        display: block;
+        margin-top: 62vh;
+        margin-left: 0rem;
+    }
+
+    .cardHolder {
+        display: block;
+        margin-left: -3rem;
+
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .btn {
+        display: block;
+        margin-top: 50vh;
+        margin-left: 17rem;
+        /* align-items: center; */
+
+    }
+
+    .cardHolder {
+        width: 600px;
+        margin-top: -10vh;
+        display: block;
+        align-items: center;
+
+    }
+
+    .todo-previous {
+        display: block;
+        margin-top: 10vh;
+        justify-content: center;
+        text-align: left;
+        padding-left: 25px;
+        margin-left: -1rem;
+        background: rgb(241, 232, 149);
+        width: 30rem;
+        height: 70vh;
+        border-bottom-right-radius: 18%;
+        box-shadow: 15px 5px 15px rgba(50, 65, 18, 0.8);
+        z-index: -1;
+    }
+
+    .todo {
+        display: flex;
+        margin-top: 10px;
+        margin: 10px;
+        padding: 10px;
+        height: 30px;
+        width: 25rem;
+        background: white;
+        color: black;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.5s ease;
+    }
+}
